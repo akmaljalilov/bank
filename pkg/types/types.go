@@ -9,3 +9,7 @@ type Payment struct {
 	Amount   Money
 	Category Category
 }
+
+type Account struct {
+	ID int64
+}
